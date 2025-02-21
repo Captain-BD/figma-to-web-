@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    font-family: Work Sans;
+}
+/* this is hero section css style  */
+.hero{
+    
+    height:959px;
+    width: 100%;
+    background-image:linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%) ,url("../assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+} 
+.hero .hero-content{
+    width: 1023px;
+}
+/* this is css for subtitle  first p tag  */
+.hero .hero-content .sub-tittle{
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;
+  }
+  .hero .hero-content .heading{
+
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+ .hero .hero-content .more-text{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+  }
+  .hero .hero-content .btn-container{
+    text-align:center ;
+  }
+ .hero .hero-content .fancy-click{
+
+    width: 282px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600; 
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+ 
+  }
+
+  /* this is hero section css style  */
+/* -------------------start new ---------------------------------------- */
+
+  /* now this is start card css */
+  .box-card{
+    width: 100%;
+    height:959px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-card .box-area{
+    width: 1320px;
+    height: 742px;
+  }
+  .box-card .title-card{
+    text-align: center;
+  }
+  .box-card .sub-tittle{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+  }
+  .box-card .heading{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .box-card .card-container .card{
+    width: 424px;
+    height: 522px;
+    text-align: center;
+   
+   
+  }
+  .box-card .card-container .card-img{
+
+    width: 424px;
+    height: 283px;
+    margin: 32px 0px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+  }
+  .box-card .card-container .food-area{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  .box-card .card-container .food{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    width: 187px;
+    height: 56px;
+    padding: 14px 32px 14px 32px;
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .box-card .card-container .card-discount{  
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+  }
+  .box-card .card-container .card-text{
+
+color: rgb(16, 16, 16);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+  }
+  .box-card .btn-container{
+    text-align:center ;
+  }
+  .box-card .fancy-click{
+
+    width: 282px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600; 
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    margin-top: 64px;
+ 
+  }
+
+
+    /* now this is start card css */
+
+    /* now this is start follow CSS */
+    .follwo-section{
+      display: flex;
+      justify-content: ;
+      height: 671px;
+
+  
+    }
+    .follwo-section .follow-img img{
+      height: 671px;
+      width: 960px;
+    }
+    .follwo-section .follow-text{
+      margin-top: 136px;
+      text-align: center;
+    }
+    .follwo-section .follow-head{
+
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+    .follwo-section .folow-message{
+        
+      color: rgb(16, 16, 16);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0%;
+      opacity: 0.6;
+
+    }
+    .follwo-section .follow-text hr{
+
+        box-sizing: border-box;
+        border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+        border-top: 1px solid rgba(16, 16, 16, 0.2);
+        margin: 48px 0px;
+        
+    }
+    .follwo-section .follow-text .follow-2ndhead{
+      color: rgb(16, 16, 16);
+      font-family: Work Sans;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 38px;
+      letter-spacing: 0%;
+      text-align: center;
+      opacity: 0.7;
+
+    }
+      
+    
+    /* now this is start follow CSS */
