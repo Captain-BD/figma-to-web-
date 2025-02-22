@@ -191,17 +191,17 @@ color: rgb(16, 16, 16);
     /* now this is start follow CSS */
     .follwo-section{
       display: flex;
-      justify-content: ;
-      height: 671px;
+      justify-content:center ;
+      height: 560px;
 
   
     }
     .follwo-section .follow-img img{
-      height: 671px;
+      height: 560px;
       width: 960px;
     }
     .follwo-section .follow-text{
-      margin-top: 136px;
+      margin-top: 36px;
       text-align: center;
     }
     .follwo-section .follow-head{
@@ -241,6 +241,15 @@ color: rgb(16, 16, 16);
       text-align: center;
       opacity: 0.7;
 
+    }
+    .follwo-section .follow-socialmedia{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .follow-socialmedia img{
+      margin-left: 90px;
     }
       
     
